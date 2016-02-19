@@ -1,0 +1,2 @@
+#/bin/zsh
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
