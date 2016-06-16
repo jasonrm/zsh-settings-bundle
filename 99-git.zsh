@@ -4,7 +4,7 @@ git config --global user.email jason@jasonrm.net
 git config --global core.excludesfile ~/.gitignore_global
 
 
-cat <<EOT >> ~/.gitignore_global
+cat <<EOT > ~/.gitignore_global
 # Compiled source #
 ###################
 *.com
@@ -32,6 +32,10 @@ cat <<EOT >> ~/.gitignore_global
 *.log
 *.sql
 *.sqlite
+
+# Project files      #
+######################
+.idea
 
 # OS generated files #
 ######################
