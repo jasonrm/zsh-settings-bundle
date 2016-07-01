@@ -36,6 +36,7 @@ cat <<EOT > ~/.gitignore_global
 # Project files      #
 ######################
 .idea
+*.iml
 
 # OS generated files #
 ######################
