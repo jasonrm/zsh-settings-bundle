@@ -1,4 +1,5 @@
 #/bin/zsh
+export PATH="~/.composer/vendor/bin/:$PATH"
 
 mkdir -p ${HOME}/bin
 if [[ ! -f ${HOME}/bin/composer ]]; then
