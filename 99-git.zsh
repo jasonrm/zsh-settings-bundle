@@ -43,7 +43,6 @@ cat <<EOT > ~/.gitignore_global
 ehthumbs.db
 Thumbs.db
 
-
 # https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 # User-specific stuff:
 .idea/workspace.xml
