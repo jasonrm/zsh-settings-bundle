@@ -13,3 +13,5 @@ backward-delete-to-slash () {
 }
 zle -N backward-delete-to-slash
 bindkey '^w' backward-delete-to-slash
+
+export PURE_GIT_PULL=0
