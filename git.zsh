@@ -1,6 +1,6 @@
 #/bin/zsh
 git config --global user.name "Jason R. McNeil"
-git config --global user.email jason@jasonrm.net
+git config --global user.email jason@mcneil.dev
 git config --global core.excludesfile ~/.gitignore_global
 
 
@@ -31,7 +31,6 @@ cat <<EOT > ~/.gitignore_global
 ######################
 *.log
 *.sql
-*.sqlite
 
 # OS generated files #
 ######################
@@ -59,13 +58,6 @@ Thumbs.db
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 
-# Gradle:
-.idea/gradle.xml
-.idea/libraries
-
-# Mongo Explorer plugin:
-.idea/mongoSettings.xml
-
 ## File-based project format:
 *.iws
 
@@ -73,16 +65,4 @@ Thumbs.db
 
 # IntelliJ
 /out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
 EOT
