@@ -4,6 +4,7 @@ git config --global user.email jason@mcneil.dev
 git config --global core.excludesfile ~/.gitignore_global
 
 
+if [[ ! -f ~/.gitignore_global ]];
 cat <<EOT > ~/.gitignore_global
 # Compiled source #
 ###################
@@ -66,3 +67,4 @@ Thumbs.db
 # IntelliJ
 /out/
 EOT
+fi
