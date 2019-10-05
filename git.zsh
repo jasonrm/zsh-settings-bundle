@@ -4,7 +4,7 @@ git config --global user.email jason@mcneil.dev
 git config --global core.excludesfile ~/.gitignore_global
 
 
-if [[ ! -f ~/.gitignore_global ]];
+if [[ ! -f ~/.gitignore_global ]]; then
 cat <<EOT > ~/.gitignore_global
 # Compiled source #
 ###################
