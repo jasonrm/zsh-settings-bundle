@@ -23,3 +23,5 @@ zle -N backward-delete-to-slash
 bindkey '^w' backward-delete-to-slash
 
 PURE_GIT_PULL=0
+
+zstyle ':completion:*' menu select
